@@ -21,28 +21,19 @@ body {
     margin-top: 7px;
 }
 
-header {
-    margin-bottom: 69px;
-}
-
-footer {
-    margin-top: 69px;
-    min-height: 199px;
-}
-
-footer, header{
+header, footer {
     background-color: #E0D5BF;
     width: 100%;
 }
 
-header, footer .container {
+header .container,
+footer .container {
     max-width: 2200px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #60412B;
 }
 
 details {

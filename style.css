@@ -72,16 +72,6 @@ details > * {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    max-width: 2200px;
-    margin: 0 auto;
-}
-
 
 .container {
     max-width: 1200px;  

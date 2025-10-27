@@ -63,7 +63,7 @@ details > * {
     justify-content: center;
     text-align: justify;
     max-width: 2200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 img {
@@ -156,6 +156,7 @@ p {
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
         justify-items: center;
+        width: 100%;
     }
 }
 

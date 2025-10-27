@@ -136,14 +136,6 @@ p {
     max-width: 800px;
 }
 
-.people {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
-}
-
 .person-block {
     display: flex;
     flex-direction: column;
@@ -167,13 +159,26 @@ p {
     margin-top: 5px;
 }
 
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;    
+    margin: 0 auto;       
+}
+
 @media (min-width: 1024px) {
     .people {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
-        justify-items: center;
+        justify-content: center; 
+        justify-items: center;   
         width: 100%;
+        max-width: 1200px;    
+        margin: 0 auto;
     }
 }
 

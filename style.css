@@ -72,17 +72,6 @@ details > * {
     text-align: center;
 }
 
-
-.container {
-    max-width: 1200px;  
-    margin: 20px auto;     
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    text-align: center;      
-}
-
-
 img {
     margin-top: 11px;
     width: 123px;
@@ -159,57 +148,6 @@ p {
     margin-top: 5px;
 }
 
-.people {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    gap: 30px;
-    width: 100%;
-    max-width: 1200px;    
-    margin: 0 auto;       
-}
-
-@media (min-width: 1024px) {
-    .people {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        justify-content: center; 
-        justify-items: center;   
-        width: 100%;
-        max-width: 1200px;    
-        margin: 0 auto;
-    }
-    p {
-        font-size: 26px;
-    }
-    header {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        justify-items: center;
-    }
-
-    .container img {
-        width: 150px;
-    }
-
-    .container p.info {
-        text-align: center;
-    }
-
-    .container button {
-        margin-top: 10px;
-    }
-
-}
-
 @media (max-width: 768px) {
     p {
         font-size: 18px;
@@ -223,3 +161,47 @@ p {
         font-size: 19px;
     }
 }
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;              
+    flex-direction: column;
+    align-items: center;        
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    .people {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        justify-content: center; 
+        justify-items: center;   
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+header, footer {
+    width: 100%;
+    background-color: #E0D5BF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h2, header h3 {
+    text-align: center;
+}
+

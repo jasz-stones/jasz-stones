@@ -180,23 +180,6 @@ p {
         max-width: 1200px;    
         margin: 0 auto;
     }
-}
-
-@media (max-width: 768px) {
-    p {
-        font-size: 18px;
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-    h2 {
-        font-size: 22px;
-    }
-    h3 {
-        font-size: 19px;
-    }
-}
-
-@media (min-width: 1200px) {
     p {
         font-size: 26px;
     }
@@ -225,4 +208,18 @@ p {
         margin-top: 10px;
     }
 
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 18px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 19px;
+    }
 }
